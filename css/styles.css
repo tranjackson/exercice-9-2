@@ -1,0 +1,57 @@
+/* ------ Général ------ */
+
+*{box-sizing: border-box;}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+main{
+	padding-bottom: 60px;
+}
+
+/* ------ Positionnement ------ */
+
+
+
+
+/* ------ Header ------ */
+
+h1{
+	background-color: rgb(0, 82, 175);
+	color: #fff;
+	padding: 20px;
+	margin: 0;
+}
+
+header{
+	background-color: #e2e2e2;
+}
+
+
+/* ------ Contenu ------ */
+
+aside{
+	background-color:  rgb(0, 82, 175);
+	color: #fff;
+	padding: 20px;
+}
+
+aside a{
+	color: #fff;
+}
+aside a:hover{
+	opacity: 0.8;
+}
+
+aside h3{
+	margin-top: 5px;
+}
